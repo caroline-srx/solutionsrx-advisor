@@ -241,7 +241,7 @@ export function computeRecommendations(
     results.push({
       productId: 'digestive_wellness',
       reason:
-        'GLP-1 and weight-loss medications can cause nausea, diarrhea, and GI discomfort. This formula helps support a healthier digestive environment during treatment.',
+        'GLP-1 and weight-loss medications slow the digestive process, which can disrupt your gut microbiome and make it harder for your body to break down food and absorb nutrients properly. Digestive Wellness helps restore healthy gut flora and supports nutrient absorption — while easing the uncomfortable side effects that often come with these medications, including diarrhea, constipation, gas, bloating, and indigestion.',
     })
   }
 
