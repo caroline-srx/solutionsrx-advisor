@@ -150,7 +150,7 @@ function IntroScreen({ onStart }: { onStart: () => void }) {
 
       {/* Description */}
       <p className="text-gray-600 text-base sm:text-lg max-w-md leading-relaxed mb-8">
-        Prescription medications can cause decreased energy, stomach issues, muscle aches, and other side effects.
+        Answer a few quick questions and receive personalized supplement recommendations.
       </p>
 
       {/* Feature pills */}
