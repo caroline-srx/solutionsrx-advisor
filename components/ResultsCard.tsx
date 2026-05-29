@@ -117,13 +117,6 @@ export default function ResultsCard({ recommendations, onStartOver }: ResultsCar
               {rec.product.name}
             </h3>
 
-            {/* Refrigeration note — Superior Probiotic only */}
-            {rec.product.id === 'superior_probiotic' && (
-              <span className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 rounded-full text-xs font-medium text-emerald-800 bg-emerald-50 border border-emerald-200">
-                🧊 Keep refrigerated to maintain live, active cultures
-              </span>
-            )}
-
             {/* Dosage */}
             <div className="flex items-start gap-1.5 mt-2">
               <svg
@@ -145,6 +138,13 @@ export default function ResultsCard({ recommendations, onStartOver }: ResultsCar
 
             {/* Reason */}
             <p className="text-gray-600 text-sm mt-3 leading-relaxed">{rec.reason}</p>
+
+            {/* Refrigeration note — Superior Probiotic only */}
+            {rec.product.id === 'superior_probiotic' && (
+              <span className="inline-flex items-center gap-1.5 mt-3 px-3 py-1 rounded-full text-xs font-medium text-emerald-800 bg-emerald-50 border border-emerald-200">
+                🧊 Keep refrigerated to maintain live, active cultures
+              </span>
+            )}
 
             {/* Learn More button */}
             <a
