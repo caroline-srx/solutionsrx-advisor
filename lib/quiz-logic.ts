@@ -303,7 +303,7 @@ export function computeRecommendations(
     results.push({
       productId: 'superior_sleep',
       reason:
-        'You mentioned trouble sleeping. This pharmacist-formulated formula supports healthy, restful sleep.',
+        'You mentioned trouble sleeping. This pharmacist-formulated formula supports healthy, restful sleep — designed to help you fall asleep faster, remain asleep longer, and wake up without grogginess, so you can enjoy truly restorative sleep night after night.',
     })
   } else if (q6 && !q8) {
     // dk_mag first (natural bone/immune position), then mag_bis
@@ -324,7 +324,7 @@ export function computeRecommendations(
     results.push({
       productId: 'superior_sleep',
       reason:
-        'You mentioned trouble sleeping. This pharmacist-formulated formula supports healthy, restful sleep.',
+        'You mentioned trouble sleeping. This pharmacist-formulated formula supports healthy, restful sleep — designed to help you fall asleep faster, remain asleep longer, and wake up without grogginess, so you can enjoy truly restorative sleep night after night.',
     })
     if (q7) {
       results.push({
