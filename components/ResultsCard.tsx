@@ -86,7 +86,7 @@ export default function ResultsCard({ recommendations, onStartOver }: ResultsCar
           Your Personalized Recommendations
         </h2>
         <p className="text-gray-500 text-sm mt-1">
-          Based on your answers, our pharmacists suggest the following supplements.
+          Based on your answers, here are your personalized recommendations.
         </p>
       </div>
 

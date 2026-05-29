@@ -214,13 +214,13 @@ export function computeRecommendations(
     results.push({
       productId: 'rx_multi',
       reason:
-        'You take prescription medications. This multivitamin is designed to fill nutritional gaps without interfering with common prescription drugs.',
+        'Prescription medications deplete key nutrients your body needs to feel its best. Prescription Support Multivitamin is specifically formulated to counteract that depletion — with high quality ingredients like CoQ10, B12 (methylcobalamin), Folic Acid (L-methylfolate), and Digestive Enzymes all in one easy-to-swallow capsule. Combat fatigue, ease muscle aches, and get back to feeling like yourself. If you\'re taking a handful of vitamins each day, save money, save hassle, and improve quality by making the switch to Prescription Support.',
     })
   } else if (answers['q2'] === 'Yes') {
     results.push({
       productId: 'rx_multi',
       reason:
-        'You are taking a GLP-1 or weight-loss medication. This multivitamin is specially formulated to support your nutritional needs alongside prescription medications.',
+        'Prescription medications deplete key nutrients your body needs to feel its best. Prescription Support Multivitamin is specifically formulated to counteract that depletion — with high quality ingredients like CoQ10, B12 (methylcobalamin), Folic Acid (L-methylfolate), and Digestive Enzymes all in one easy-to-swallow capsule. Combat fatigue, ease muscle aches, and get back to feeling like yourself. If you\'re taking a handful of vitamins each day, save money, save hassle, and improve quality by making the switch to Prescription Support.',
     })
   } else if (answers['q3'] === 'Male') {
     results.push({

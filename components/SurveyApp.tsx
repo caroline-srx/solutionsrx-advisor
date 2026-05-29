@@ -144,22 +144,18 @@ function IntroScreen({ onStart }: { onStart: () => void }) {
       </div>
 
       {/* Heading */}
-      <h2 className="text-2xl sm:text-3xl font-extrabold text-[#002868] leading-tight mb-1">
-        Supplement Advisor
+      <h2 className="text-2xl sm:text-3xl font-extrabold text-[#002868] leading-tight mb-4">
+        Supplement Advisor™
       </h2>
-      <p className="text-[#bf0a30] font-semibold text-sm tracking-wide mb-4">
-        Pharmacist Formulated
-      </p>
 
       {/* Description */}
       <p className="text-gray-600 text-base sm:text-lg max-w-md leading-relaxed mb-8">
-        Answer a few quick questions and receive personalized supplement recommendations
-        from our pharmacists.
+        Prescription medications can cause decreased energy, stomach issues, muscle aches, and other side effects.
       </p>
 
       {/* Feature pills */}
       <div className="flex flex-wrap justify-center gap-2 mb-8">
-        {['Takes under 2 minutes', 'Personalized results', 'Pharmacist reviewed'].map(
+        {['Takes under 2 minutes', 'Personalized results', 'Easy to understand'].map(
           (feat) => (
             <span
               key={feat}
