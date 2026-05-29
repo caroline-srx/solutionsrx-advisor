@@ -159,7 +159,7 @@ export const PRODUCTS: Record<string, Product> = {
   },
   dk_mag: {
     id: 'dk_mag',
-    name: 'DK-Mag',
+    name: 'D-K-Mag',
     dose: '1 capsule twice daily',
     url: 'https://solutionsrxproducts.com/shop/multivitamins-and-supplements/d-k-mag/',
   },
@@ -296,7 +296,7 @@ export function computeRecommendations(
       results.push({
         productId: 'dk_mag',
         reason:
-          'You have concerns about low vitamin D or calcium. DK-Mag combines vitamins D and K with magnesium to support strong bones and healthy immune function.',
+          'If you have concerns about low vitamin D or calcium, D-K-Mag was made for you. This formula combines Vitamins D3 and K2 (MK-7) with Magnesium Bisglycinate to support calcium absorption, direct it into your bones where it belongs, and keep your muscles, energy, and immune system working the way they should.',
       })
     }
     // superior_sleep later
@@ -311,7 +311,7 @@ export function computeRecommendations(
       results.push({
         productId: 'dk_mag',
         reason:
-          'You have concerns about low vitamin D or calcium. DK-Mag combines vitamins D and K with magnesium to support strong bones and healthy immune function.',
+          'If you have concerns about low vitamin D or calcium, D-K-Mag was made for you. This formula combines Vitamins D3 and K2 (MK-7) with Magnesium Bisglycinate to support calcium absorption, direct it into your bones where it belongs, and keep your muscles, energy, and immune system working the way they should.',
       })
     }
     results.push({
@@ -330,7 +330,7 @@ export function computeRecommendations(
       results.push({
         productId: 'dk_mag',
         reason:
-          'You have concerns about low vitamin D or calcium. DK-Mag combines vitamins D and K with magnesium to support strong bones and healthy immune function.',
+          'If you have concerns about low vitamin D or calcium, D-K-Mag was made for you. This formula combines Vitamins D3 and K2 (MK-7) with Magnesium Bisglycinate to support calcium absorption, direct it into your bones where it belongs, and keep your muscles, energy, and immune system working the way they should.',
       })
     }
     results.push({
@@ -344,7 +344,7 @@ export function computeRecommendations(
       results.push({
         productId: 'dk_mag',
         reason:
-          'You have concerns about low vitamin D or calcium. DK-Mag combines vitamins D and K with magnesium to support strong bones and healthy immune function.',
+          'If you have concerns about low vitamin D or calcium, D-K-Mag was made for you. This formula combines Vitamins D3 and K2 (MK-7) with Magnesium Bisglycinate to support calcium absorption, direct it into your bones where it belongs, and keep your muscles, energy, and immune system working the way they should.',
       })
     }
   }
