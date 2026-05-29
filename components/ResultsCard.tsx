@@ -120,7 +120,7 @@ export default function ResultsCard({ recommendations, onStartOver }: ResultsCar
             {/* Refrigeration note — Superior Probiotic only */}
             {rec.product.id === 'superior_probiotic' && (
               <span className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 rounded-full text-xs font-medium text-emerald-800 bg-emerald-50 border border-emerald-200">
-                🧊 Keep refrigerated — to maintain live, active cultures
+                🧊 Keep refrigerated to maintain live, active cultures
               </span>
             )}
 
